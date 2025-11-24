@@ -192,14 +192,12 @@ body {
         flex: 1 1 calc(50% - 20px);
     }
 }
-
 /* Desktop */
 @media (min-width: 1024px) {
     .card {
         flex: 1 1 calc(33.3% - 20px);
         transition: transform 0.3s;
     }
-
     .card:hover {
         transform: translateY(-6px);
     }
